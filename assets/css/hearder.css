@@ -28,6 +28,8 @@ display: none;
 .menu-checkbox:checked ~ .menu-lista{
 display: block;
 
-
-
+}
+.lista-item{
+    padding: 1em;
+    background-color: white;
 }

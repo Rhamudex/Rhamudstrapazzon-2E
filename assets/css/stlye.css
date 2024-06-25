@@ -1,5 +1,9 @@
 @import url(hearder.css);
-
+:root{
+    --cor-de-fundo: #ebecee;
+    --branco: #FFFFFFFF;
+    --laranja: #eb9b00;
+}
 
 
 
