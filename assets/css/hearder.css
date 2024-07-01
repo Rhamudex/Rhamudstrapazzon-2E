@@ -5,6 +5,7 @@ body{
     display: flex;
     justify-content:space-between;
     background-color: white;
+    align-items: center;
 }
 .container{
 margin: 0px;;
@@ -24,6 +25,8 @@ padding: 0.5em;
 .menu-lista{
 
 display: none;
+position: absolute;
+width: 60vw;
 }
 .menu-checkbox:checked ~ .menu-lista{
 display: block;
