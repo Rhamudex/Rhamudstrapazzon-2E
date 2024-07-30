@@ -1,5 +1,5 @@
 body{
-    background-color: #EBECEE;
+    background-color: #5d6980;
 }
 .cabecalho{
     display: flex;
@@ -35,4 +35,7 @@ display: block;
 .lista-item{
     padding: 1em;
     background-color: white;
+}
+.menu-checkbox {
+display:none
 }
