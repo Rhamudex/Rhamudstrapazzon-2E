@@ -11,4 +11,20 @@
 .banne-texto{
     font-weight: 500;
     margin: 1em 0;
+
+}
+.banner-pesquisa{
+    border:1px solid white;
+    background-color: transparent;
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    background: url(..banner.css/..css/img/
+    background-position: 1em;
+}
+.banner-pesquisa::placeholder{
+    color: var(--branco);
+    text-align:center;
+
 }

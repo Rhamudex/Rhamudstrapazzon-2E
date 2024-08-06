@@ -32,10 +32,13 @@ width: 60vw;
 display: block;
 
 }
-.lista-item{
+.item-lista{
     padding: 1em;
     background-color: white;
 }
 .menu-checkbox {
 display:none
+}
+.johnatan{
+    color:orange
 }
