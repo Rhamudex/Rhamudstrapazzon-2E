@@ -1,5 +1,6 @@
 @import url(hearder.css);
 @import url(banner.css);
+@import url(carrosel.css);
 :root{
     --cor-de-fundo: #ebecee;
     --branco: #FFFFFFFF;
