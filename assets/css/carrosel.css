@@ -1,8 +1,9 @@
 .carrosel-titulo{
 background-color: white;
-color: orange;
-align-items: center;
+color: var(--branco)
+text-aling: center;
 font-size: 18px;
-width: 700;
-justify-content: space-around;
+font-weight: 700;
+padding: 1em, 0em, 0.5em, 0em
+text-transform: uppercase;
 }
