@@ -14,10 +14,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/stlye.css">
     <link rel="stylesheet" href="assets/css/hearder.css">
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
 
@@ -69,40 +66,59 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
-        <div class= "card">
+        <div class="card">
             <div class="card-descricao">
                 <div class="descricao">
 
                     <h3 class="descricao-titulo">Talvez você se interesse por...
                     </h3>
                     <h2 class="descricao-titulo-livro">Angular 11 e Firebase</h2>
-                        <p class="descricao-texto">Costruindo uma aplicação integrada com a plataforma do Google.</p>
+                    <p class="descricao-texto">Costruindo uma aplicação integrada com a plataforma do Google.</p>
                 </div>
-                
+
                 <img src="assets/img/AluraBooks/Angular.png" alt="">
             </div>
             <div class="card-botoes">
                 <div class="botoes">
                     <div class="botoes-item"><img src="assets/img/AluraBooks/Favoritos.svg" alt=""></div>
-                        <div class="botoes-item"><img src="assets/img/AluraBooks/Compras.svg" alt=""></div>
-                    
-                    <a href="#" class="botao-ancora">Saiba mais!</a>
+                    <div class="botoes-item"><img src="assets/img/AluraBooks/Compras.svg" alt=""></div>
+
                 </div>
+                <a href="#" class="botao-ancora">Saiba mais</a>
 
             </div>
-            
+
 
         </div>
-    
+        
+        <section class="topicos">
+            <h2 class="topicos-titulo">Topicos visitados rcentemente</h2>
+            <ul class="topicos-lista">
+                <li class="topicos-item">Python</li> <a href="" class="topicos-item"></a>
+                <li class="topicos-item">Android</li> <a href="#" class="topicos-item"></a>
+                <li class="topicos-item">Startups</li> <a href="#" class="topicos-item"></a>
+                <li class="topicos-item">00</li> <a href="#" class="topicos-item"></a>
+                <li class="topicos-item">HTML & CSS</li> <a href="#" class="topicos-item"></a>
+                <li class="topicos-item">Marketing Digital</li> <a href="#" class="topicos-item"></a>
+                <li class="topicos-item">Agile</li> <a href="#" class="topicos-item"></a>
+                <li class="topicos-item">Java</li> <a href="#" class="topicos-item"></a>
+            </ul>
 
+
+
+
+
+
+        </section>
     </section>
-    
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
             slidesPerView: 3,
-            pagination:{
+            pagination: {
                 el: 'swiper-pagination',
                 type: 'bullets'
             }
